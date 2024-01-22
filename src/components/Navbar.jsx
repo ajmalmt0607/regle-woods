@@ -25,7 +25,7 @@ const Navbar = () => {
 		localStorage.setItem("theme", theme);
 	}, [theme]);
 	return (
-		<nav className="bg-base-200 p-2">
+		<nav className="bg-base-300 p-2">
 			<div className="align-element flex justify-between items-center">
 				<div className="px-3 py-1 m-2">
 					{/* TITLE */}

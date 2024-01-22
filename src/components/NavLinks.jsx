@@ -16,9 +16,9 @@ const NavLinks = () => {
 				const { id, url, text } = link;
 				return (
 					<>
-						<li key={id} className=" px-3 py-1 m-2 rounded-md">
+						<li key={id} className="  px-3 py-1 m-2 rounded-md">
 							<NavLink
-								className=" uppercase text-sm text-black font-extrabold"
+								className="uppercase text-sm font-extrabold"
 								to={url}
 							>
 								{text}

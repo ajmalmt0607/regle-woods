@@ -38,7 +38,28 @@ export default {
 	},
 	// eslint-disable-next-line no-undef
 	plugins: [require("@tailwindcss/typography"), require("daisyui")],
+	// daisyui: {
+	// 	themes: ["winter", "dracula"],
+	// },
 	daisyui: {
-		themes: ["winter", "dracula"],
+		themes: [
+			{
+				winter: {
+					primary: "#a991f7",
+					secondary: "rgb(199 210 254)",
+					text: "#37cdbe",
+					neutral: "#3d4451",
+					"base-100": "#ffffff",
+					"font-color-black": "rgb(12 10 9)",
+				},
+				dark: {
+					primary: "#a991f7",
+					secondary: "#f6d860",
+					accent: "#37cdbe",
+					neutral: "#3d4451",
+					"base-100": "rgb(30 27 75)",
+				},
+			},
+		],
 	},
 };
